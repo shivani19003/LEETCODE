@@ -1,0 +1,19 @@
+class Solution {
+public:
+    string largestGoodInteger(string num) {
+        int maxm= INT_MIN;
+        for(int i=1; i< num.size()-1; i++){
+            if(num[i]==num[i-1] && num[i]==num[i+1]){
+               maxm= max(maxm,num[i]-'0');
+            }
+        }
+        if(maxm==INT_MIN){
+            return "";
+        }
+        else{
+            string gg= to_string(maxm);
+            string hh= gg+gg+gg;
+            return hh;
+        }
+    }
+};
