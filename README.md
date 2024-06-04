@@ -1,1 +1,14 @@
-I have taken the #100DaysOfCodeChallenge, committing to coding for at least an hour every day for 100 days. I have chosen this challenge to improve my coding skills and build a habit of consistent coding. I will be documenting my progress on this GitHub repository and sharing it on Linkedln using the hashtag #100daysofcodechallenge.
+# Two Pointers
+|  |
+| ------- |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivani19003/LEETCODE/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+
+
+# String
+|  |
+| ------- |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivani19003/LEETCODE/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+# Greedy
+|  |
+| ------- |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/shivani19003/LEETCODE/tree/master/2572-append-characters-to-string-to-make-subsequence) |
