@@ -1,35 +1,28 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        string rev;
-        string gg;
-        string word;
-        for(int i=0; i<s.size(); i++){
+        string gg="";
+        string rev="";
+        for(int i=s.length()-1; i>=0; i--){
             if(s[i]!=' '){
-                char ch= s[i];
+                char ch=s[i];
                 gg+=ch;
             }
-            else{
+            if(s[i]==' '){
                 if(!gg.empty()){
-                    word=gg+word;
-                    word=' '+word;
+                    reverse(gg.begin(), gg.end());
+                    rev=rev+gg+' ';
                     gg="";
                 }
                 else{
                     continue;
                 }
+
             }
         }
-            word=gg+word;
-            string v;
-            if(word[0]==' '){
-        for(int i=1; i<word.size(); i++){
-           v+=word[i];
-        }  
-            }
-            else{
-                return word;
-            }
-        return v;
+        reverse(gg.begin(), gg.end());
+        rev=rev+gg;
+        if(rev[rev.length()-1]==' ') rev.pop_back();
+        return rev;
     }
 };
